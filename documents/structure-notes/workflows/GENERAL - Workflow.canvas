@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"e893556c62f50629","type":"group","x":-900,"y":-420,"width":850,"height":425,"label":"REDDIT "},
+		{"id":"35950cbfe1a43e21","type":"group","x":-900,"y":60,"width":850,"height":425,"label":"NEWS"},
+		{"id":"b0e99c76e091d445","type":"group","x":-900,"y":540,"width":850,"height":425,"label":"YOUTUBE"},
+		{"id":"603cdf4a1e7ebda2","type":"group","x":-340,"y":620,"width":260,"height":320,"label":"Data Points"},
+		{"id":"bd39ac723e4a2696","type":"group","x":-340,"y":150,"width":260,"height":310,"label":"Data Points"},
+		{"id":"76730fb2a4ae2da8","type":"group","x":-340,"y":-325,"width":260,"height":305,"label":"Data Points"},
+		{"id":"efb521ecd270bf71","type":"file","file":"documents/structure-notes/REDDIT - Methodology & Processing.md","x":-880,"y":-385,"width":520,"height":365},
+		{"id":"7833b0446307f251","type":"text","text":"Publication","x":-320,"y":-230,"width":220,"height":50},
+		{"id":"1d43cdd7cf2635da","type":"text","text":"Comments","x":-320,"y":-160,"width":220,"height":50},
+		{"id":"cc79c5684e49feaf","type":"text","text":"Title","x":-320,"y":-305,"width":220,"height":50},
+		{"id":"250691ce21f565ab","type":"file","file":"documents/structure-notes/NEWS - Methodology & Processing.md","x":-880,"y":95,"width":520,"height":365},
+		{"id":"0e8d199f8de27e52","type":"text","text":"Article","x":-320,"y":250,"width":220,"height":50},
+		{"id":"0f77880385760dc5","type":"text","text":"Headline","x":-320,"y":175,"width":220,"height":50},
+		{"id":"523abdc13731cfc4","type":"file","file":"documents/structure-notes/YT - Source.md","x":-880,"y":575,"width":520,"height":365},
+		{"id":"ea7b7358a7f4a23f","type":"text","text":"Transcription","x":-320,"y":730,"width":220,"height":50},
+		{"id":"c479696a0bb60823","type":"text","text":"Title","x":-320,"y":655,"width":220,"height":50},
+		{"id":"26e17ec63184db89","type":"text","text":"LIWC + more (papers\n`import LIWC_spanish as LIWC`  \n`X = LIWC.liwc().getLIWCCount(text)` \nhttps://arxiv.org/pdf/2209.13114.pdf\n![[LIWC_spanish.txt]]\n![[Spanish_LIWC2007_Dictionary.dic]]","x":120,"y":160,"width":420,"height":230},
+		{"id":"f723e97886f18298","type":"text","text":"Economic UNCERTAINTY\nRisk Index by JP Morgan","x":120,"y":450,"width":420,"height":230,"color":"4"},
+		{"id":"8b6f63aa2352ec6c","type":"text","text":"Then will see which Groups Variate and relate them to depression","x":720,"y":390,"width":250,"height":60},
+		{"id":"44032826059afd60","type":"text","text":"# Notes!\n- All are daily\n- Dont forget Uncertainty Index!\n- | Id | Year | Month | Day | Text | Link |\n\t- One table per Type(news) and subtype(infobae\n - '.csv' format\n","x":560,"y":-280,"width":420,"height":290},
+		{"id":"cd44b3662493f2cc","type":"text","text":"# To-Do's!\n- How many News/channels/subreddits?\n- Which Text classifiers\n- Scrape data? How....\n-  ","x":120,"y":-280,"width":420,"height":290}
+	],
+	"edges":[
+		{"id":"e58070a6018777e4","fromNode":"26e17ec63184db89","fromSide":"right","toNode":"8b6f63aa2352ec6c","toSide":"left"},
+		{"id":"43e5f30674581d47","fromNode":"e893556c62f50629","fromSide":"right","toNode":"26e17ec63184db89","toSide":"left"},
+		{"id":"03c97c813ee8b4b0","fromNode":"35950cbfe1a43e21","fromSide":"right","toNode":"26e17ec63184db89","toSide":"left"},
+		{"id":"1c864ef200c6f9ff","fromNode":"b0e99c76e091d445","fromSide":"right","toNode":"26e17ec63184db89","toSide":"left"},
+		{"id":"3444227220e37385","fromNode":"f723e97886f18298","fromSide":"right","toNode":"8b6f63aa2352ec6c","toSide":"left"}
+	]
+}
